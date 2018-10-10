@@ -1,0 +1,6 @@
+[package]
+name = "testmerge"
+version = "0.1.0"
+
+[dependencies]
+rocksdb = { git = "https://github.com/pingcap/rust-rocksdb.git", branch = "master" }
